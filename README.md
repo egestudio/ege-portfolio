@@ -1,2 +1,1 @@
-# ege-portfolio
-Egenin dosyaları
+# ege.github.io
