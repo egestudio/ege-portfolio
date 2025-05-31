@@ -1,0 +1,2 @@
+# ege-portfolio
+Egenin dosyaları
