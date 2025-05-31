@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ege'nin Web Sitesi</title>
+</head>
+<body>
+  <h1 id="baslik">Merhaba, ben Ege!</h1>
+  <button onclick="document.getElementById('baslik').innerText = 'Hoş geldin!';">Tıkla ve Yazı Değişsin</button>
+
+  <h2>İletişim Formu</h2>
+  <form onsubmit="alert('Mesajınız gönderildi!'); return false;">
+    <input type="text" placeholder="Adınız" required /><br /><br />
+    <input type="email" placeholder="E-posta" required /><br /><br />
+    <textarea placeholder="Mesajınız" required></textarea><br /><br />
+    <button type="submit">Gönder</button>
+  </form>
+</body>
+</html>
